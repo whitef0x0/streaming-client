@@ -2,9 +2,9 @@ from lib.GoProCapture import GoProCapture
 import zmq, json, cv2
 from lib.utils import image_to_string, undistort
 import time, base64
-from imutils.video import WebcamVideoStream
+# from imutils.video import WebcamVideoStream
 
-import socket, struct, pickle
+# import socket, struct, pickle
 
 
 SERVER_ADDRESS = "35.163.137.148"
